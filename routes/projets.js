@@ -46,7 +46,7 @@ router.post('', function (req, res, next) {
             req.body.youtube,
             req.body.website);
 
-        return res.status(201).json({'ok': 'ok'});
+        return res.status(201).json({'message': 'Projet ajouté'});
 
 });
 
